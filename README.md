@@ -15,5 +15,7 @@ npm install
 jest
 ```
 
+You can use [ASTExplorer](https://astexplorer.net/#/gist/04f9f9f981f77c88e2685defef6e3b76/latest) to double check the AST.
+
 You should see an output similar to the Preview image included:
 ![jest preview image](/jest-preview.png)
