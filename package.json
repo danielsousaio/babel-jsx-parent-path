@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "debug": "node --inspect-brk node_modules/.bin/jest --runInBand --watch index.test"
   },
   "author": "Daniel Sousa",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/parser": "^7.18.5",
